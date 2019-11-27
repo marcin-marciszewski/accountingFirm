@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 1100px)" href="css/widescreen.css">
+    <title>Howard & Co | Accountant London</title>
+</head>
+
+<body id="home">
+    <!-- Navbar -->
+    <nav id="navbar">
+        <h1 class="logo">
+            <span class="text-primary">
+                <i class="fas fa-donate"></i>
+                Howard </i>
+            </span>& Co
+        </h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#work">Our Work</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header: Showcase -->
+    <header id="showcase">
+        <div class="showcase-content">
+            <h1 class="l-heading">
+                We always have time for you.
+            </h1>
+            <p class="lead">Professional and experienced accounting company in central London.</p>
+            <a href="#work" class="btn">Read More</a>
+        </div>
+    </header>
+
+    <!-- Section: Work -->
+    <section id="work" class="bg-light py-1">
+        <div class="container">
+            <h2 class="m-heading text-center"><span class="text-primary">Our</span> Work</h2>
+
+            <div class="items">
+                <div class="item">
+                    <i class="fas fa-seedling fa-2x"></i>
+                    <div>
+                        <h3>Startup Companies</h3>
+                        <p>We will choose the option that is most suited to your preferences, limits any administrative
+                            burden and fits with any legal regulations – existing or expected.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <i class="fas fa-pencil-alt fa-2x"></i>
+                    <div>
+                        <h3>Business Plan Writing</h3>
+                        <p>Having helped businesses of all shapes and sizes for nearly 50 years, there aren’t many
+                            business scenarios we aren’t familiar with.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <i class="fas fa-chart-line fa-2x"></i>
+                    <div>
+                        <h3>Small Business Acconts</h3>
+                        <p>We love helping businesses succeed, and have vast experience of working alongside small and
+                            growing firms.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-img"></div>
+        <div class="about-text bg-dark p-2">
+            <h2 class="m-heading"><span class="text-primary">About</span> Us</h2>
+            <p>Of all the tax accountants London has to offer, not many can boast Big-Four experience minus the fees and
+                jargon.<br>
+                Every client is unique, and understanding your particular needs and preferences is at the core of
+                everything we do.<br>
+                We pride ourselves on friendliness, a personal touch and explaining things in plain English.<br>
+                <h3>Our Team</h3>
+                <ul class="list">
+                    <li>Alistair Ryan CEO</li>
+                    <li>Carmel Fisher</li>
+                    <li>Carol Campbell</li>
+                    <li>Andy Coupe</li>
+                </ul>
+        </div>
+    </section>
+
+    <section id="clients" class="py-3">
+        <div class="container">
+            <h2 class="m-heading text-center p-1">Our <span class="text-primary">Clients</span></h2>
+            <div class="items py-1">
+                <div><img src="../img/logos/1.resized.png" alt="logo"></div>
+                <div><img src="../img/logos/2.resized.png" alt="logo"></div>
+                <div><img src="../img/logos/3.resized.png" alt="logo"></div>
+                <div><img src="../img/logos/4.resized.png" alt="logo"></div>
+                <div><img src="../img/logos/5.resized.png" alt="logo"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Contact -->
+    <section id="contact">
+        <div class="contact-form bg-primary p-2">
+            <h2 class="m-heading">Contact Us</h2>
+            <p>Please use the form below to contact us</p>
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" placeholder="Enter Email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Numbemessage</label>
+                    <input type="text" name="phone" id="phone" placeholder="Enter Phone Numbemessage">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Enter Message"></textarea>
+                </div>
+                <input type="submit" value="Send" class="btn btn-dark">
+            </form>
+        </div>
+        <div class="map"></div>
+    </section>
+
+    <footer id="main-footer" class="bg-dark text-center py-1">
+        <div class="container">
+            <p>Copyright &copy; 2019; Howard&Co, All Rights Reserved</p>
+        </div>
+    </footer>
+
+
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/d86976839e.js" crossorigin="anonymous"></script>
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- Local JS File -->
+    <script src="js/main.js"></script>
+    <!-- Google Maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBa04eQHK3Bi2tSsRZfDix_EZHbNNSZIvY&callback=initMap"
+        async defer></script>
+</body>
+
+</html>
